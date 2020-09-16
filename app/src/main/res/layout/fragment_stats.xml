@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <com.example.expensetracker.view.custom.PercentageTextView
+        android:id="@+id/percentview_fragment_stats"
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:textSize="32sp"
+        app:backgroundCircleColor="@color/colorPrimary"
+        app:firstCircleColor="@color/firstColor"
+        app:secondCircleColor = "@color/secondColor"
+        app:thirdCircleColor="@color/thirdColor"
+        app:fourthCircleColor="@color/fourthColor"
+        app:fifthCircleColor="@color/fifthColor"
+        app:sixthCircleColor="@color/sixthColor"
+        app:circleStrokeWidth="10dp"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_fragment_stats"
+        android:layout_below="@id/percentview_fragment_stats"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="20dp"/>
+
+</RelativeLayout>

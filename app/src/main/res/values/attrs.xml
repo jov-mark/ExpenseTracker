@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PercentageTextView">
+        <attr name="backgroundCircleColor"  format="color"/>
+        <attr name="firstCircleColor"       format="color"/>
+        <attr name="secondCircleColor"      format="color"/>
+        <attr name="thirdCircleColor"       format="color"/>
+        <attr name="fourthCircleColor"      format="color"/>
+        <attr name="fifthCircleColor"       format="color"/>
+        <attr name="sixthCircleColor"       format="color"/>
+        <attr name="circleStrokeWidth"      format="dimension"/>
+    </declare-styleable>
+</resources>
